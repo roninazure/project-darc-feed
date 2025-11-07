@@ -7,22 +7,28 @@
 
 &nbsp;
 
+<h3><code>⚙️  SYSTEM STATUS SNAPSHOT</code></h3>
+
 <table>
   <tr>
-    <td><kbd>🧠 PHASE</kbd></td>
-    <td><kbd>2.3 ➝ INFRA MEMORY SCAN + RECON TAGGING</kbd></td>
+    <td><big><b>🧠 PHASE</b></big></td>
+    <td><big><b>2.3 ➝ INFRA MEMORY SCAN + RECON TAGGING</b></big></td>
   </tr>
   <tr>
-    <td><kbd>🎯 MODE</kbd></td>
-    <td><kbd>HUNTER</kbd> <kbd>THREAT INTEL</kbd> <kbd>RECON FEED</kbd></td>
+    <td><big><b>🎯 MODE</b></big></td>
+    <td>
+      <big><b>HUNTER</b></big> &nbsp;
+      <big><b>THREAT INTEL</b></big> &nbsp;
+      <big><b>RECON FEED</b></big>
+    </td>
   </tr>
   <tr>
-    <td><kbd>📡 STATUS</kbd></td>
-    <td><kbd>LIVE‑ONLINE</kbd></td>
+    <td><big><b>📡 STATUS</b></big></td>
+    <td><center><big><b>LIVE‑ONLINE</b></big></center></td>
   </tr>
   <tr>
-    <td><kbd>🧬 MODEL</kbd></td>
-    <td><kbd>GPT‑4o</kbd></td>
+    <td><big><b>🧬 MODEL</b></big></td>
+    <td><big><b>GPT‑4o</b></big></td>
   </tr>
 </table>
 
@@ -62,10 +68,10 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2025-11-06):
+## 🧪 Live Recon Artifacts (2025-11-07):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-11-06 13:24 UTC
+Scan Time: 2025-11-07 13:20 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -78,4 +84,4 @@ Risk scores are based on likelihood of LLM propagation + exploitability.
 It might already know them.
 ```
 
-_Last mirrored: `2025-11-06 13:27 UTC` by D.A.R.C._
+_Last mirrored: `2025-11-07 13:20 UTC` by D.A.R.C._
