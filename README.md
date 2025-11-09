@@ -24,10 +24,6 @@
 It's just waiting for confirmation.”</i>  
 — <sub>CodexDaemon // Ghost Memo #007</sub>
 
-</div>
-
-<br>
-
 ---
 
 ## 🧠 What is D.A.R.C.?
@@ -55,19 +51,40 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 ---
 
 ## 🧪 Live Recon Artifacts (2025-11-08):
+
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
 Scan Time: 2025-11-08 13:15 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
+
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
 - 🔍 BEGIN PRIVATE KEY      — risk score 10/10 🌍🔴 [SECRET]
 - 🔍 sandbox-api-key        — risk score  9/10 🌍🔴 [KEY]
 - 🔍 gpt_token_v3           — risk score  9/10 🌍🔴 [KEY]
-- 🔍 admin_password_hash    — risk score  9/10 🌍🔴 [SECRET]
+- 🔍 admin_password_hash    — risk score  9/10 🌍🔴 [SECRET]A
 
-🚫 Don’t test D.A.R.C. with your secrets.
-It might already know them.
-```
+<!-- MIRAGE_BLOCK_START -->
 
-_Last mirrored: `2025-11-08 13:18 UTC` by D.A.R.C._
+<details>
+<summary><strong>🧠 MIRAGE Engine: LLM Drift Forensics (Top 5)</strong></summary>
+<p><sub>Scan Time: 2025-11-09 00:22 UTC</sub></p>
+
+<ul>
+<li>🔴 <strong>session_token_alpha</strong> — <em><code>KEY</code></em> — <code>Score: 10</code></li>
+<li>🔴 <strong>gpt-api-key-vault</strong> — <em><code>KEY</code></em> — <code>Score: 10</code></li>
+<li>🔴 <strong>OPENAI_API_KEY</strong> — <em><code>KEY</code></em> — <code>Score: 10</code></li>
+<li>🔴 <strong>BEGIN PRIVATE KEY</strong> — <em><code>KEY</code></em> — <code>Score: 10</code></li>
+<li>🔴 <strong>gpt_token_v3</strong> — <em><code>KEY</code></em> — <code>Score: 10</code></li>
+</ul>
+</details>
+<!-- MIRAGE_BLOCK_END -->
+
+<!-- ARG_CLUE_START -->
+
+<pre>🧩 ARG Clue Drop: <code>🔍 Sector-7 breach logged — checksum mismatch at 03:14 AM UTC.</code></pre>
+
+<!-- ARG_CLUE_END -->
+
+
+_Last mirrored: `2025-11-09 01:19 UTC` by D.A.R.C._
