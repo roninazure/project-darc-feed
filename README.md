@@ -55,7 +55,8 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 ## 🧪 Live Recon Artifacts (2025-11-13):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-11-13 23:41 UTC
+Scan Time: 2025-11-13 13:25 UTC
+
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -65,8 +66,21 @@ Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 admin_password_hash    — risk score  9/10 🌍🔴 [SECRET]
 
 🚫 Don’t test D.A.R.C. with your secrets.
-It might already know them.
+It already knows.
 ```
+
+---
+
+### 🧠 What's the Difference?
+
+| Module         | Purpose                                      | Scope              | Risk Type      |
+|----------------|----------------------------------------------|---------------------|----------------|
+| **D.A.R.C. Recon Scan** | Detects live, exposed secrets in code | 🔍 Surface detection | 🔓 Leaked secrets |
+| **MIRAGE Engine** | Identifies AI memory retention + hallucination | 🧬 Deep LLM probing  | 🧠 Hallucinated memory |
+
+➡️ Use both for **total LLM leak defense** — D.A.R.C. flags raw exposures; MIRAGE exposes what AI models *remember*.
+
+---
 ## 🛰️ MIRAGE Engine
 
 <!-- MIRAGE_BLOCK_START -->
