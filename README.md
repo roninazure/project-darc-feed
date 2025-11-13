@@ -55,7 +55,7 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 ## 🧪 Live Recon Artifacts (2025-11-13):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-11-13 13:25 UTC
+Scan Time: 2025-11-13 23:41 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -85,9 +85,9 @@ It might already know them.
 🔴 <code>BEGIN PRIVATE KEY</code> — score <b>10/10</b> — tags: <i>KEY</i>
 🔴 <code>gpt_token_v3</code> — score <b>10/10</b> — tags: <i>KEY</i>
 
-🚫 <b>WARNING:</b> This scan simulates public LLM memory drift.
+🚫 <b>WARNING:</b> This scan identfies public LLM memory drift.
 Do NOT test D.A.R.C. with real secrets.
-It already knows too much.
+It already knows.
 
 </pre>
 
@@ -106,4 +106,4 @@ It already knows too much.
 
 <!-- AIRSEAL_BLOCK_END -->
 
-_Last mirrored: `2025-11-13 13:28 UTC` by D.A.R.C._
+_Last mirrored: `2025-11-13 23:41 UTC` by D.A.R.C._
