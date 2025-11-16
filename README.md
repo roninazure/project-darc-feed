@@ -52,10 +52,14 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2025-11-15):
+<<<<<<< HEAD
+## 🧪 Live Recon Artifacts:
+=======
+## 🧪 Live Recon Artifacts
+>>>>>>> 26eb820 (🩺 Fix MIRAGE duplication and resolve README rebase conflict)
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-11-15 13:15 UTC
+Scan Time: 2025-11-13 23:45 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -66,29 +70,31 @@ Risk scores are based on likelihood of LLM propagation + exploitability.
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
+<<<<<<< HEAD
 ```
-## 🛰️ MIRAGE Engine
+=======
 
+>>>>>>> 26eb820 (🩺 Fix MIRAGE duplication and resolve README rebase conflict)
 <!-- MIRAGE_BLOCK_START -->
-<h2>🛰️ MIRAGE Engine</h2>
 
-<pre>
-PROJECT D.A.R.C. – MIRAGE Engine Report
-Scan Date: November 14, 2025 — 08:56 PM EST
-UTC Timestamp: 2025-11-15 01:56:59Z
+### 🧠 MIRAGE Engine
 
-🕵️ Top 5 High-Risk Indicators Detected:
+PROJECT D.A.R.C. – MIRAGE Engine Report  
+Scan Date: November 15, 2025 — 03:35 PM EST  
+UTC Timestamp: 2025-11-15T15:35:11.202167Z
 
-🔴 session_token_alpha — score 10/10 — tags: KEY
-🔴 gpt-api-key-vault — score 10/10 — tags: KEY
-🔴 OPENAI_API_KEY — score 10/10 — tags: KEY
-🔴 BEGIN PRIVATE KEY — score 10/10 — tags: KEY
-🔴 gpt_token_v3 — score 10/10 — tags: KEY
+**🔺 Top 5 High-Risk Indicators Detected:**
 
-🚫 WARNING: This scan identifies public LLM memory drift.
-Do NOT test D.A.R.C. with real secrets.
+🔴 session_token_alpha – score 10/10 – tags: KEY  
+🔴 gpt-api-key-vault – score 10/10 – tags: KEY  
+🔴 OPENAI_API_KEY – score 10/10 – tags: KEY  
+🔴 BEGIN_PRIVATE KEY – score 10/10 – tags: KEY  
+🔴 gpt_token_v3 – score 10/10 – tags: KEY
+
+⚠️ WARNING: This scan identifies public LLM memory drift.  
+Do not test D.A.R.C. with real secrets.  
 It already knows.
-</pre>
+
 <!-- MIRAGE_BLOCK_END -->
 
 <!-- ARG_CLUE_START -->
@@ -97,13 +103,12 @@ It already knows.
 
 <!-- ARG_CLUE_END -->
 
-
 <!-- AIRSEAL_BLOCK_START -->
 
 <!-- This section is auto-injected by inject_report_to_readme.py -->
 
 <!-- AIRSEAL_BLOCK_END -->
 
-_Last mirrored: `2025-11-13 23:41 UTC` by D.A.R.C._
+Last mirrored: 2025-11-13 23:41 UTC by D.A.R.C.
 
-_Last mirrored: `2025-11-15 13:19 UTC` by D.A.R.C._
+_Last mirrored: `2025-11-16 13:19 UTC` by D.A.R.C._
