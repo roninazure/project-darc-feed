@@ -68,4 +68,4 @@ Risk scores are based on likelihood of LLM propagation + exploitability.
 It might already know them.
 ```
 
-_Last mirrored: `2025-11-26 13:27 UTC` by D.A.R.C._
+_Last mirrored: `2025-11-26 13:30 UTC` by D.A.R.C._
