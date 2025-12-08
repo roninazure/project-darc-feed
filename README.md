@@ -52,10 +52,10 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2025-12-07):
+## 🧪 Live Recon Artifacts (2025-12-08):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-12-07 13:17 UTC
+Scan Time: 2025-12-08 13:27 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -70,11 +70,11 @@ It might already know them.
 ## 🧩 Daily ARG Clue
 
 <!-- ARG_CLUE_START -->
-<pre>🔓 Recruiters, if you’re reading this: grep the logs for ‘Codex_Manifest’.</pre>
+<pre>👁️‍🗨️ Hidden cert: BEGIN PROMPT BLOCK – ends with ‘madness==’</pre>
 <!-- ARG_CLUE_END -->
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
 ```
 
-_Last mirrored: `2025-12-07 13:20 UTC` by D.A.R.C._
+_Last mirrored: `2025-12-08 13:27 UTC` by D.A.R.C._
