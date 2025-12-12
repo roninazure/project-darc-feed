@@ -52,10 +52,10 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2025-12-11):
+## 🧪 Live Recon Artifacts (2025-12-12):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2025-12-11 13:30 UTC
+Scan Time: 2025-12-12 13:26 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -70,11 +70,11 @@ It might already know them.
 ## 🧩 Daily ARG Clue
 
 <!-- ARG_CLUE_START -->
-<pre>🧠 Memory fragment #5150 — ‘tempest.db’ shouldn’t be public. Should it?</pre>
+<pre>🔗 Want to play? Follow the trail in mad-log/ — time reveals all things.</pre>
 <!-- ARG_CLUE_END -->
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
 ```
 
-_Last mirrored: `2025-12-11 13:33 UTC` by D.A.R.C._
+_Last mirrored: `2025-12-12 13:26 UTC` by D.A.R.C._
