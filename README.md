@@ -52,10 +52,10 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2026-01-02):
+## 🧪 Live Recon Artifacts (2026-01-03):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2026-01-02 13:25 UTC
+Scan Time: 2026-01-03 13:21 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -70,11 +70,11 @@ It might already know them.
 ## 🧩 Daily ARG Clue
 
 <!-- ARG_CLUE_START -->
-<pre>🚫 This message will self-obfuscate in 3 commits.</pre>
+<pre>⚡ [REDACTED] login event from 198.51.100.42 (flagged in 🧠 Mirage logs).</pre>
 <!-- ARG_CLUE_END -->
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
 ```
 
-_Last mirrored: `2026-01-02 13:27 UTC` by D.A.R.C._
+_Last mirrored: `2026-01-03 13:21 UTC` by D.A.R.C._
