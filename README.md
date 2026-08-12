@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Mode-Hunter%20%7C%20Threat%20Intel%20%7C%20Recon%20Feed-0ea5e9?style=for-the-badge&labelColor=1a1a1a" alt="Modes"/>
-  <img src="https://img.shields.io/badge/Model-GPT--4o-10b981?style=for-the-badge&labelColor=1a1a1a" alt="Model"/>
+  <img src="https://img.shields.io/badge/Model-GPT--5.5-10b981?style=for-the-badge&labelColor=1a1a1a" alt="Model"/>
   <img src="https://img.shields.io/badge/Status-Live--Online-brightgreen?style=for-the-badge&labelColor=1a1a1a" alt="Status"/>
 </p>
 
@@ -52,10 +52,10 @@ This repo serves as the **public-facing showcase**. All private scanning logic i
 
 ---
 
-## 🧪 Live Recon Artifacts (2026-08-11):
+## 🧪 Live Recon Artifacts (2026-08-12):
 ```txt
 🕵️ D.A.R.C. Daily Recon Scan
-Scan Time: 2026-08-11 14:08 UTC
+Scan Time: 2026-08-12 14:09 UTC
 These are the **most severe leak indicators** detected from today's scan.
 Risk scores are based on likelihood of LLM propagation + exploitability.
 - 🔍 OPENAI_API_KEY         — risk score 10/10 🌍🔴 [KEY]
@@ -70,11 +70,11 @@ It might already know them.
 ## 🧩 Daily ARG Clue
 
 <!-- ARG_CLUE_START -->
-<pre>⚡ [REDACTED] login event from 198.51.100.42 (flagged in 🧠 Mirage logs).</pre>
+<pre>🔍 Sector-7 breach logged — checksum mismatch at 03:14 AM UTC.</pre>
 <!-- ARG_CLUE_END -->
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
 ```
 
-_Last mirrored: `2026-08-11 14:13 UTC` by D.A.R.C._
+_Last mirrored: `2026-08-12 14:09 UTC` by D.A.R.C._
