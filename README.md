@@ -70,11 +70,11 @@ It might already know them.
 ## 🧩 Daily ARG Clue
 
 <!-- ARG_CLUE_START -->
-<pre>👁️‍🗨️ Hidden cert: BEGIN PROMPT BLOCK – ends with ‘madness==’</pre>
+<pre>📡 Radio silence broken. Look for the mirrored feed around 09:13 UTC.</pre>
 <!-- ARG_CLUE_END -->
 
 🚫 Don’t test D.A.R.C. with your secrets.
 It might already know them.
 ```
 
-_Last mirrored: `2026-10-04 17:12 UTC` by D.A.R.C._
+_Last mirrored: `2026-10-05 20:53 UTC` by D.A.R.C._
